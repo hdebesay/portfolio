@@ -1,26 +1,133 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Henok's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body class="bg-light">
 
-  <style>
-    body{
-      background-color: #BCD3F7;
-    }
-  </style>
-</head>
-<body>
-
-  <h1>Henok Debesay</h1>
-
-  <h2>Aspiring Jr. Web Developer</h2>
-
-  <p>My name is Henok Debesay. I am a Year Up student. Year Up is an intensive, one-year program for students combining hands-on skill development and internships at some of America’s top companies. I am currently studying front-end development. I am a lifelong learner and love challenges. My hobbies include playing soccer, watching movies, and hanging out with friends and family. I am working hard to land an internship at a startup or at any MANGA companies in the next six months. 
-  </p>
+    <!-- navbar start -->
+    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand text-danger fw-bold fs-4" href="#">Navbar</a>
+        <div class="dropdown">
+          <button class="btn btn-secondary btn-danger px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
   
-  
-</body>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#home">Home</a></li>
+            <li><a class="dropdown-item" href="#about">about</a></li>
+            <li><a class="dropdown-item" href="#services">Services</a></li>
+            <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+            <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
+            <li><a class="dropdown-item" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar finish -->
+
+    <!-- Home section start -->
+    <section class="home py-5" id="home">
+      <div class="container-lg">
+        <div class="row min-vh-100 align-items-center align-content-center">
+            <div class="col-md-6 mt-md-0">
+              <div class="home-img text-center">
+                <img class="img-thumbnail rounded-circle mw-100" src="photos/henok.jpeg" alt="">
+              </div>
+            </div>
+            <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+              <div class="home-text">
+                <p class="text-muted mb-1">Hello I'm</p>
+                <h1 class="text-danger text-uppercase fs-1 fw-bold">Web Developer</h1>
+                <p class="fs-4">Henok Debesay</p>
+                <p class="mt-4 text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum incidunt repellendus, sint accusantium cumque ad exercitationem corrupti.</p>
+                <a href="" class="btn btn-danger px-3 mt-3">My Work</a>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Home section finish -->
+
+    
+    <!-- about section start -->
+
+
+    <section class="about bg-white py-5" id="about">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">About Me</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-text">
+              <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquam ipsa consequatur.</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquam ipsa consequatur.</p>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4>100</h4>
+                  <p>Project Completed</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4>90</h4>
+                  <p>Happy Clients</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4>95</h4>
+                  <p>Positive Reviews</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-12">
+                 <a href="" class="btn btn-danger">Download CV</a>
+                 <div class="social-links">
+                   <a href="#"><i class="fab fa-"></i></a>
+                 </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquam ipsa consequatur.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aliquam ipsa consequatur.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- about section end -->
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
 </html>
+
